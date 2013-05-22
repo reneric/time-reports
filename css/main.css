@@ -1,0 +1,57 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.content {}
+.content table {}
+.content tr {}
+.content td {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    width: 125px;
+}
+.content td.small {
+    width: 60px;
+}
+.content td input {
+    margin: 0;
+    width: 90%;
+}
+.content td input.btn {}
+.content td[rel="description"] {
+	width:250px;
+}
+.content tr.header {
+	background-color: #efefef;
+	font-weight: bold;
+	border:1px solid #bbbbbb;
+}
+.content tr.header td {
+	border-right: 1px solid #dddddd;
+}
+.content tr.data td {
+	border-right:1px solid #eeeeee;
+}
+.content tr.data {
+	border: 1px solid #cccccc;
+}
+.content tr.data td.edit {text-align:center;}
+.content tr.data td.edit a {}
+table td input {
+	width:auto;
+}
+table form {}
+
+input#save {display: none;}
+
+
+
+
+
+
+
+
